@@ -1,0 +1,13 @@
+<ht<ml lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>segunda pagina</title>
+</head>
+<body>
+    <h1>seguda pagina</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, velit officia! Consequuntur tenetur mollitia ipsum dolorem error reiciendis voluptatibus veritatis impedit vitae obcaecati velit architecto, magni inventore. Eum, molestiae illum?</p>
+
+    
+        <p><a href="cor01.html">voltar</a></p>
+</body>

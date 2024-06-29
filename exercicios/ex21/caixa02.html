@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+        }
+        h1 {
+            text-align: center;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            padding: 3px;
+            background-color: gray;
+            box-shadow: 1px 1px 1px black;
+       }
+       nav > a {
+        text-decoration: none;
+        font-weight:bold;
+        color: antiquewhite;
+        margin-right: 50px;
+        text-align: center;
+       }
+        main {
+            background-color: white;
+            padding:10px;
+            margin: 10px;
+            border-radius: 6px 15px 6px 15px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.645);
+        }
+        article {
+            background-color: lightgray;
+        }
+        article > aside { background-color: rgb(111, 108, 108);
+text-align: center;
+        }
+        footer {
+            background-color: black;
+            color: white; 
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <h1>Meu site</h1>
+    <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    
+    </nav>
+   </header> 
+   <main>
+<section id="assuntos">
+
+</section>
+<section id="noticias">
+    <article>
+        <h2>noticias sobre o brasil</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eveniet, beatae impedit pariatur in consequuntur fugiat exercitationem natus modi provident ipsa consectetur minus sed nobis nesciunt doloribus, eos veritatis. Enim.</p>
+        <aside>
+           <p>artigo escrito por Jeferso Valentim Venacio</p> 
+        </aside>
+    </article>
+
+</section>
+   </main>
+    <footer>
+        <p>Desenvovido pelo Curso em Video</p>
+    </footer>
+</body>
+</html>
